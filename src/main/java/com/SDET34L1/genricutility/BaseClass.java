@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -47,11 +48,11 @@ public class BaseClass {
 
 
 	}
-	/**
-	 * BeforeTest added to the  Basic configuration 
-	 */
-	@BeforeTest
-	public void beforeTest() {
+/**
+* AfterTest add to Base configuration 
+*/
+	@AfterTest
+	public void afterTest() {
 		
 	}
 
